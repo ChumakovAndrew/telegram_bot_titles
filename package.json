@@ -1,0 +1,21 @@
+{
+  "name": "telegram_bot_test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack watch --mode development"
+  },
+  "author": "andrew chumakov",
+  "license": "ISC",
+  "dependencies": {
+    "@telegraf/session": "^1.0.1",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.16.0",
+    "telegraf": "^4.11.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
